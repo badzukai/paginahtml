@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+:root {
+ --font: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+}
+
+body {
+    font-family: Inconsolata;
+}
+
+.indexInicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.indexButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dotted 1px;
+    padding: 10px;
+    width: 70px;
+    height: 20px;
+    box-shadow: 2px 2px 0px 1px #000;
+}
